@@ -1,0 +1,56 @@
+/* .wall {
+    border-top: 2px solid gray;
+} */
+
+:root {
+    --grid-repeat: 20;
+}
+
+
+.cell {
+    width: 32px;
+    aspect-ratio: 1 / 1;
+    background-color: darkseagreen;
+    border-right: 2px dashed darkgray;
+    border-bottom: 2px dashed darkgray;
+    box-sizing: border-box;
+  }
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-repeat), max-content);
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    width: fit-content;
+}
+
+.northWall {
+    border-top: 2px solid darkcyan;
+}
+
+.southWall {
+    border-bottom: 2px solid darkcyan;
+}
+
+.eastWall {
+    border-right: 2px solid darkcyan;
+}
+
+.westWall {
+    border-left: 2px solid darkcyan;
+}
+
+body {
+    background-color: #666;
+    color: #6b6;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.start {
+    background-color: rgb(185, 56, 189);
+}  
+
+.goal {
+    background-color: rgb(0, 218, 22);
+}
