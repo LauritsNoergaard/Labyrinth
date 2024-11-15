@@ -7,4 +7,4 @@ Rekursiv + stack
 - Om du viser backtracking eller smider dem ud, og kun viser den færdige rute.
 Viser kun færdige rute
 
-Deployed: 
+Deployed: https://lauritsnoergaard.github.io/Labyrinth/Solver/index.html 
